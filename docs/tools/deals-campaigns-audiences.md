@@ -1222,7 +1222,7 @@ Products: OpenXDirect, OpenXSelect, OpenXControl
 | `id` | string | yes | The Package's id. For a deal's package, use the `package.id` getDeal returns. |
 | `instance_uid` | string | no | The OpenX instance to operate in. Defaults to the instance your credential authenticated against; pass it only to work in a different one. Any id argument must come from that same instance. |
 
-Returns: The package's id, instance_uid, targeting (every dimension: rendering_context, geographic, audience, content, domain, viewability, video, technographic, metacategory, instream_content, app_inventory, brand_safety, contextual_segment, custom, retargeting_segment, and the operators) and url_targeting. Contextual segments are only in contextual_segment: custom never carries the ctx_ variables behind them. An unknown id is a not-found error, and a package on another instance is a "Wrong instance" error naming the instance_uid to pass. Documents can be large when a block list carries many domains.
+Returns: The package's id, instance_uid, targeting (every dimension: rendering_context, geographic, audience, content, domain, viewability, video, technographic, metacategory, instream_content, app_inventory, brand_safety, contextual_segment, custom, retargeting_segment, and the operators) and url_targeting. Contextual segments are only in contextual_segment: custom never carries the ctx_ variables behind them. An unknown id is a not-found error, and a package on another instance is a "Wrong instance" error naming the instance_uid to pass. Documents can be large when a block list carries many domains. A direct deal's package (is_direct_deal) is not readable here; getDeal returns its whole targeting.
 
 ### listPackages
 
