@@ -1,0 +1,154 @@
+{
+  "backend": "deals-campaigns-audiences",
+  "source_commit": "2815a9ba24b4e58af97737c98d95cc40d0ea669f",
+  "files": [
+    {
+      "path": "docs/tools/deals-campaigns-audiences.md",
+      "sha256": "95dd14703c80e045751f96ecf7c4ab7254dbb8c84ab7a76e7d8589a903c2cfbb"
+    },
+    {
+      "path": "skills/openx-audience-build/SKILL.md",
+      "sha256": "20dff0976d6d472f9fccb206b9621b881a5aa8d587ae625f1dd4e7feb4874abc"
+    },
+    {
+      "path": "skills/openx-audience-build/references/persona-playbook.md",
+      "sha256": "d4df63e10a3eb8b4babe6c688f85006f95fd12e54fd539bd9f5148c3733d672b"
+    },
+    {
+      "path": "skills/openx-audience-build/references/terminology.md",
+      "sha256": "3644001d0d05b4670826268275b8b22f8b53e8d3b05085c899ab169cc173e198"
+    },
+    {
+      "path": "skills/openx-audience-build/references/values.md",
+      "sha256": "1137af057b022a47feb5ea55b3d0cc941008979f84585fc74639312db4195d7f"
+    },
+    {
+      "path": "skills/openx-budget-reallocate/SKILL.md",
+      "sha256": "7ff10cdf7fb69a40b4ec7af33f4171d0a3f2aedf967e2af71699986c30585815"
+    },
+    {
+      "path": "skills/openx-budget-reallocate/references/split.md",
+      "sha256": "47faaf43db0c841c4f0cc382a943622f67ab6fb7c4c2da3fcc67af39c36e666d"
+    },
+    {
+      "path": "skills/openx-bulk-change/SKILL.md",
+      "sha256": "13e07abb4b4d581dda8ff597cef7d39015cf94031a7880d24a4a99ed0823d21e"
+    },
+    {
+      "path": "skills/openx-bulk-change/references/changes.md",
+      "sha256": "69529d0ca82d6a950db0486cf5c9a069a5c73ddf3c332f0ac3d8517a38ca2dc9"
+    },
+    {
+      "path": "skills/openx-campaign-launch/SKILL.md",
+      "sha256": "87bc78a32d0ad70df564e7c8876df790565d10be53d65d213ed8ebc7906ed570"
+    },
+    {
+      "path": "skills/openx-campaign-launch/references/values.md",
+      "sha256": "d6a3b0283b04d62666220c8cead8f37e7eff72692113aa7155323cc7bfc74954"
+    },
+    {
+      "path": "skills/openx-connection-guide/SKILL.md",
+      "sha256": "a0040fbf4bdc966f59d39d9abb278bcc7a0b99b86998ec6edd134f9080133b24"
+    },
+    {
+      "path": "skills/openx-deal-creation/CHANGELOG.md",
+      "sha256": "1f69d87cde0c8123e038fd97eab1c27b9f06ed0c8d6dbb0dd8a0f4b8a7b6e0f0"
+    },
+    {
+      "path": "skills/openx-deal-creation/SKILL.md",
+      "sha256": "ad348cc012f0a952f4b09c41f4d28c70ca4d86ce7dee39608234d6077f994a3d"
+    },
+    {
+      "path": "skills/openx-deal-creation/references/advanced-targeting.md",
+      "sha256": "fb98b89a9194196559ac45f8d03009e2890b67e648bf7b098b16936fe9bfbca4"
+    },
+    {
+      "path": "skills/openx-deal-creation/references/examples.md",
+      "sha256": "aaf8c70cbfaeb19997e7c6d198db3de9557e0b775baf3b2c08f52d1716c4c44a"
+    },
+    {
+      "path": "skills/openx-deal-creation/references/summary.md",
+      "sha256": "89cc4af24246df3475bc36efa7c8cad0fe4e78e5173475381f03bdb3723fc374"
+    },
+    {
+      "path": "skills/openx-deal-creation/references/values.md",
+      "sha256": "3683b2c4b18250899091dd9d95a2f434498b07610b24e5750b1fbd4681993574"
+    },
+    {
+      "path": "skills/openx-deal-troubleshooter/SKILL.md",
+      "sha256": "2ecfecb229588b5a40d696d75f3329e859711cac87341c05f3ff5e080c5a5331"
+    },
+    {
+      "path": "skills/openx-delivery-troubleshoot/SKILL.md",
+      "sha256": "38384b7bf3f02481bc5763d3980d6b876098dc445814e5a6b735828cb5d9b6ac"
+    },
+    {
+      "path": "skills/openx-delivery-troubleshoot/references/status-codes.md",
+      "sha256": "0387365078740c604b2b06751b30f82e7962e6372adf94460d8aca61ae09ccb1"
+    },
+    {
+      "path": "skills/openx-pacing-review/SKILL.md",
+      "sha256": "bc92668349a438dbd1dd39e4ec8f2db5d5671812d6da1583ede7d9b94eeda5e0"
+    },
+    {
+      "path": "skills/openx-pacing-review/references/pacing-fields.md",
+      "sha256": "510d89375bee8f8d865dbc18fabe2fd21127e7ae51cf488d847a09a7a6acc4ed"
+    }
+  ],
+  "skills": [
+    {
+      "name": "openx-connection-guide",
+      "title": "OpenX connection guide",
+      "description": "Rules for every OpenX call: instances, accounts, errors, confirmation. Read before your first call.",
+      "version": "77f05e0d"
+    },
+    {
+      "name": "openx-deal-creation",
+      "title": "Create a deal",
+      "description": "Create a new OpenX XP deal (with its targeting package) through the OpenX MCP tools, including resolving format, device, channel and geo targeting ids, demand partners, the format/channel/device compatibility and targeting-blocking rules (CTV vs viewability/VTR, Banner/Native vs TV devices, App-only/Web-only blocks), and avoiding the backend pitfalls that make createDeal fail or leave orphaned packages. Use whenever someone asks to create, set up, build, or make a new deal in OpenX, even casually (\"create me a new deal\", \"set up a test deal for a Zurich mobile banner\", \"make a deal for TTD\"), or when someone asks which formats, devices, channels or quality thresholds (viewability, VTR) can be combined in a deal, what deal type or pricing (floor vs fixed price) a new deal gets, or when a deal creation attempt has failed and needs recovery.",
+      "version": "2.8.7"
+    },
+    {
+      "name": "openx-deal-troubleshooter",
+      "title": "Troubleshoot a deal",
+      "description": "Troubleshoot OpenX deal performance end to end \u2014 health checks, funnel bottlenecks, bid-loss reasons, hourly spikes/drops, daily trends, dimension breakdowns, targeting inspection and audit-trail changes. Use whenever someone gives a deal code (OX-...) or deal name and asks why it's underdelivering, where the funnel leaks, why bids are losing (overall or by publisher, DSP, domain or bundle), what changed, how a deal is pacing, which targeting setting is throttling it, or wants a general \"deal health check\" \u2014 even if they don't name a specific tool. Also use to resolve an OX-... deal code to its numeric id when other OpenX tools need one. If the deal belongs to OpenXDirect, hand off to the \"Diagnose a Line Item\" skill (openx-delivery-troubleshoot) instead.",
+      "version": "1.2.3"
+    },
+    {
+      "name": "openx-audience-build",
+      "title": "Build an audience",
+      "description": "Build, size, price and activate an OpenXSelect audience through the OpenX MCP tools - turn a plain-language description of who a campaign should reach into segments, a compiled definition, a reach estimate, a price, a saved audience and an export you can check on. Use when asked to find, build, size, estimate, price, create, edit or activate an audience in OpenXSelect, to turn a persona or RFP audience brief into a targetable audience, to answer \"how many people are X in Y\", or to check whether an audience has finished publishing. For the deal or line item that will target the audience (publishers, domains, apps, geo of the ad request), use openx-deal-creation or openx-campaign-launch instead.",
+      "version": "1.3.0"
+    },
+    {
+      "name": "openx-budget-reallocate",
+      "title": "Reallocate budget",
+      "description": "Move budget between the line items of one OpenXDirect order through the OpenX MCP tools. Reads every line item's budget, spend to date and pace, proposes a split that keeps the order's total (decreases first, never below what a line item has spent, only into line items whose forecast can absorb it), gets a yes, applies it one line item at a time, re-reads each one and reports per line item. Use when asked to move money or budget between line items, shift budget from underspending to capped line items, rebalance or reallocate an order's budget, or give one line item more at another's expense.",
+      "version": "1.2.0"
+    },
+    {
+      "name": "openx-bulk-change",
+      "title": "Change line items in bulk",
+      "description": "Pause, resume or change many OpenXDirect line items at once through the OpenX MCP tools, one object at a time, safely. Scopes the set to one named order or a filter the user confirmed, shows every affected line item with its current spend before the first write, applies the change line item by line item, re-reads each one and reports per object what succeeded and what did not. Use when asked to pause everything under an order or campaign, hold or stop spend, resume or unpause a campaign, raise or lower the budget, bid or CPM on several line items, or make the same change across a set of line items.",
+      "version": "1.3.0"
+    },
+    {
+      "name": "openx-campaign-launch",
+      "title": "Launch a campaign",
+      "description": "Launch an OpenXDirect campaign end to end through the OpenX MCP tools - create the order, creative and line item, attach the creative, forecast, then activate - with the id, unit and lookup rules each step needs. Use when asked to create, set up, launch or test a campaign, order, line item or creative in OpenXDirect, or to run the campaign flow through the OpenX MCP.",
+      "version": "1.11.0"
+    },
+    {
+      "name": "openx-delivery-troubleshoot",
+      "title": "Diagnose a line item",
+      "description": "Diagnose why an OpenXDirect line item or campaign is not delivering, through the OpenX MCP. It only reads while it diagnoses, and applies a fix only when the user asks. Reads the delivery counters first (requests, bids, fills, impressions) to see where the funnel breaks, then walks a fixed checklist from the cheapest configuration causes to forecast and sibling comparison, and reports the first failing check and the fix. Use when asked why a line item, order or campaign is not delivering, not spending, not bidding, stalled, or shows Active but has no impressions.",
+      "version": "1.5.0"
+    },
+    {
+      "name": "openx-pacing-review",
+      "title": "Review pacing",
+      "description": "Review delivery pacing across the line items of an OpenXDirect order or account through the read tools of the OpenX MCP. Scopes the set, pulls delivery and pacing for all of it in bulk, and produces one table with a flag per line item (on pace, behind, well behind, ahead, not started) plus the order's own pace, with the unit caveats that make the numbers honest. Use when asked which line items are underspending, behind or ahead of pace, how a campaign or order is pacing this week, or for a pacing or delivery check across an order.",
+      "version": "1.7.0"
+    }
+  ]
+}
