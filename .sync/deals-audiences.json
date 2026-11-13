@@ -1,0 +1,84 @@
+{
+  "backend": "deals-audiences",
+  "source_commit": "e70d5904cc8bda10e03877ffe961786d7ac4f7ae",
+  "files": [
+    {
+      "path": "docs/tools/deals-audiences.md",
+      "sha256": "caab74af4bfb9a16ad21d20c46be9ccada2c12e5e75d8dc51f84897c283bbe02"
+    },
+    {
+      "path": "skills/openx-audience-build/SKILL.md",
+      "sha256": "e769ff555915df037c38f1fc59acaa35ff8407c925dcaf317b00b504e751e007"
+    },
+    {
+      "path": "skills/openx-audience-build/references/persona-playbook.md",
+      "sha256": "d4df63e10a3eb8b4babe6c688f85006f95fd12e54fd539bd9f5148c3733d672b"
+    },
+    {
+      "path": "skills/openx-audience-build/references/terminology.md",
+      "sha256": "3644001d0d05b4670826268275b8b22f8b53e8d3b05085c899ab169cc173e198"
+    },
+    {
+      "path": "skills/openx-audience-build/references/values.md",
+      "sha256": "1137af057b022a47feb5ea55b3d0cc941008979f84585fc74639312db4195d7f"
+    },
+    {
+      "path": "skills/openx-connection-guide/SKILL.md",
+      "sha256": "b7fa699db61392295b9e38155769ccd8ee31bc144ca32a4cc048d12403de7ebe"
+    },
+    {
+      "path": "skills/openx-deal-creation/CHANGELOG.md",
+      "sha256": "bc9eab229ce5fa2250e178bb679cb331b8178312903d037e92b27b46aec17e9e"
+    },
+    {
+      "path": "skills/openx-deal-creation/SKILL.md",
+      "sha256": "45063d3033a56ac991db8345d18cf8a6f794259cd540b36e90f71d61bcfac4b8"
+    },
+    {
+      "path": "skills/openx-deal-creation/references/advanced-targeting.md",
+      "sha256": "fb98b89a9194196559ac45f8d03009e2890b67e648bf7b098b16936fe9bfbca4"
+    },
+    {
+      "path": "skills/openx-deal-creation/references/examples.md",
+      "sha256": "aaf8c70cbfaeb19997e7c6d198db3de9557e0b775baf3b2c08f52d1716c4c44a"
+    },
+    {
+      "path": "skills/openx-deal-creation/references/summary.md",
+      "sha256": "89cc4af24246df3475bc36efa7c8cad0fe4e78e5173475381f03bdb3723fc374"
+    },
+    {
+      "path": "skills/openx-deal-creation/references/values.md",
+      "sha256": "3683b2c4b18250899091dd9d95a2f434498b07610b24e5750b1fbd4681993574"
+    },
+    {
+      "path": "skills/openx-deal-troubleshooter/SKILL.md",
+      "sha256": "af7f4e374dcc31847c11d29cb9f8f2e462074ca6581a307ee46ef6c3fc7ac60a"
+    }
+  ],
+  "skills": [
+    {
+      "name": "openx-connection-guide",
+      "title": "OpenX connection guide",
+      "description": "Rules for every OpenX call: instances, accounts, errors, confirmation. Read before your first call.",
+      "version": "52258d3e"
+    },
+    {
+      "name": "openx-deal-creation",
+      "title": "Create a deal",
+      "description": "Create a new OpenX XP deal (with its targeting package) through the OpenX MCP tools, including resolving format, device, channel and geo targeting ids, demand partners, the format/channel/device compatibility and targeting-blocking rules (CTV vs viewability/VTR, Banner/Native vs TV devices, App-only/Web-only blocks), and avoiding the backend pitfalls that make createDeal fail or leave orphaned packages. Use whenever someone asks to create, set up, build, or make a new deal in OpenX, even casually (\"create me a new deal\", \"set up a test deal for a Zurich mobile banner\", \"make a deal for TTD\"), or when someone asks which formats, devices, channels or quality thresholds (viewability, VTR) can be combined in a deal, what deal type or pricing (floor vs fixed price) a new deal gets, or when a deal creation attempt has failed and needs recovery.",
+      "version": "2.8.7"
+    },
+    {
+      "name": "openx-deal-troubleshooter",
+      "title": "Troubleshoot a deal",
+      "description": "Troubleshoot OpenX deal performance end to end \u2014 health checks, funnel bottlenecks, bid-loss reasons, hourly spikes/drops, daily trends, dimension breakdowns, targeting inspection and audit-trail changes. Use whenever someone gives a deal code (OX-...) or deal name and asks why it's underdelivering, where the funnel leaks, why bids are losing (overall or by publisher, DSP, domain or bundle), what changed, how a deal is pacing, which targeting setting is throttling it, or wants a general \"deal health check\" \u2014 even if they don't name a specific tool. Also use to resolve an OX-... deal code to its numeric id when other OpenX tools need one.",
+      "version": "1.2.3"
+    },
+    {
+      "name": "openx-audience-build",
+      "title": "Build an audience",
+      "description": "Build, size, price and activate an OpenXSelect audience through the OpenX MCP tools - turn a plain-language description of who a campaign should reach into segments, a compiled definition, a reach estimate, a price, a saved audience and an export you can check on. Use when asked to find, build, size, estimate, price, create, edit or activate an audience in OpenXSelect, to turn a persona or RFP audience brief into a targetable audience, to answer \"how many people are X in Y\", or to check whether an audience has finished publishing. For the deal that will target the audience (publishers, domains, apps, geo of the ad request), use openx-deal-creation instead.",
+      "version": "1.3.0"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "backend": "deal-analytics",
+  "source_commit": "40c6c0a01caf581a695fd36bb5a4be7b6c311d77",
+  "files": [
+    {
+      "path": "docs/tools/deal-analytics.md",
+      "sha256": "ef786348f2490a0474c65468179246781f6aaabefb68542dcba00fb6839c2a9b"
+    }
+  ],
+  "skills": []
+}

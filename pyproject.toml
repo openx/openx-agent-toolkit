@@ -1,0 +1,15 @@
+[project]
+name = "openx-agent-toolkit"
+version = "0.1.0"
+description = "Scripts that keep the OpenX agent toolkit in step with the OpenX MCP servers"
+requires-python = ">=3.13"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["scripts", "tests"]
