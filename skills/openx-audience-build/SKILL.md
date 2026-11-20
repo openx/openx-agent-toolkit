@@ -3,7 +3,7 @@ name: openx-audience-build
 description: Build, size, price and activate an OpenXSelect audience through the OpenX MCP tools - turn a plain-language description of who a campaign should reach into segments, a compiled definition, a reach estimate, a price, a saved audience and an export you can check on. Use when asked to find, build, size, estimate, price, create, edit or activate an audience in OpenXSelect, to turn a persona or RFP audience brief into a targetable audience, to answer "how many people are X in Y", or to check whether an audience has finished publishing. For the deal that will target the audience (publishers, domains, apps, geo of the ad request), use openx-deal-creation instead.
 metadata:
   author: openx
-  version: 1.3.0
+  version: 1.3.1
   title: Build an audience
 license: "This Skill is provided by OpenX and is subject to change. It is provided “as is” for use with your OpenX account and is subject to the OpenXSelect Portal Terms of Service (https://select.openx.com/terms/). Actions taken using this Skill are made under your OpenX account and are your responsibility. Review all actions and outputs before relying on them."
 ---
@@ -35,7 +35,7 @@ activating starts an export that takes hours, so confirm with the user before St
    `activateAudience`, `archiveAudience`, `compileAudienceDefinition`, `createAudience`,
    `estimateAudience`, `explainAudienceDefinition`, `getAudience`, `getAudiencePricing`,
    `getAudienceReachReport`, `getExport`, `getSegment`, `getSkill`, `listAccountsForProduct`,
-   `listAudiences`, `listExportsByAudienceId`, `listProviders`, `listSegmentsByCategory`,
+   `listExportsByAudienceId`, `listProviders`, `listSegmentsByCategory`,
    `optionsByPath`, `reportDiagnostics`, `searchDealAudienceSegmentsByPrompt`, `searchOptionsByPath`,
    `updateAudience`.
    A step that names a tool you cannot see means load it, never skip the step or substitute

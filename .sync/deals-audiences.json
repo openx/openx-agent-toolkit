@@ -1,6 +1,6 @@
 {
   "backend": "deals-audiences",
-  "source_commit": "e70d5904cc8bda10e03877ffe961786d7ac4f7ae",
+  "source_commit": "df8d93df228271dbc4e0a6e8741df08b6af560b2",
   "files": [
     {
       "path": "docs/tools/deals-audiences.md",
@@ -8,7 +8,7 @@
     },
     {
       "path": "skills/openx-audience-build/SKILL.md",
-      "sha256": "e769ff555915df037c38f1fc59acaa35ff8407c925dcaf317b00b504e751e007"
+      "sha256": "fde3ae6161e1965f2397039465084d12e563e955b9d791e82230602b077143a1"
     },
     {
       "path": "skills/openx-audience-build/references/persona-playbook.md",
@@ -78,7 +78,7 @@
       "name": "openx-audience-build",
       "title": "Build an audience",
       "description": "Build, size, price and activate an OpenXSelect audience through the OpenX MCP tools - turn a plain-language description of who a campaign should reach into segments, a compiled definition, a reach estimate, a price, a saved audience and an export you can check on. Use when asked to find, build, size, estimate, price, create, edit or activate an audience in OpenXSelect, to turn a persona or RFP audience brief into a targetable audience, to answer \"how many people are X in Y\", or to check whether an audience has finished publishing. For the deal that will target the audience (publishers, domains, apps, geo of the ad request), use openx-deal-creation instead.",
-      "version": "1.3.0"
+      "version": "1.3.1"
     }
   ]
 }
