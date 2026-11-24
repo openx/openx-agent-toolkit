@@ -1,10 +1,10 @@
 {
   "backend": "deals-audiences",
-  "source_commit": "df8d93df228271dbc4e0a6e8741df08b6af560b2",
+  "source_commit": "02a7edc41760cdd4b1ee1c8dabb5ec22eb99df43",
   "files": [
     {
       "path": "docs/tools/deals-audiences.md",
-      "sha256": "caab74af4bfb9a16ad21d20c46be9ccada2c12e5e75d8dc51f84897c283bbe02"
+      "sha256": "b628dba77bd15787e855f1a4137d06f2ce6772d3e5761138c4f8fbe92131c2ba"
     },
     {
       "path": "skills/openx-audience-build/SKILL.md",

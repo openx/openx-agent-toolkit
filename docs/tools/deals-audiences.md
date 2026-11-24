@@ -1124,10 +1124,10 @@ Products: OpenXSelect
 |---|---|---|---|
 | `category` | string | yes | The Segment category to filter by. |
 | `sub_category` | string | no | Only Segments with this sub-category, as for listSegmentsByCategory. |
-| `search` | string | no | Only Segments whose name or description contains this text. |
+| `search` | string | no | Only Segments whose name, description, full name or external id contains this text. |
 | `names` | list of string | no | Only Segments whose name is exactly one of these. |
 
-Returns: The count of Segments in that category.
+Returns: The count of Segments in that category, matching listSegmentsByCategory's rows.
 
 ### getSegment
 
@@ -1159,7 +1159,7 @@ Returns: {"segments": [...]}: without fields each has id, external_id, name, cat
 
 ### listSegmentsByCategory
 
-List Segments in a category, optionally narrowed by sub_category, a name/description search, or exact names. The category is the audience-definition dimension: pass the ids you choose as `segment_ids` in a compileAudienceDefinition criterion whose dimension is this category. Location and demographic Segments describe the people in an audience, not where an ad is shown. A location Segment holds users seen in that place over the past 90 days, and a demographic Segment holds users thought to be of that age or gender. Both differ from geographic targeting on a package, which matches the current location of each ad request (from its IP address and similar signals). For "people in Texas", use the Texas location Segment; for "ads shown in Texas", use geographic targeting (buildPackageTargeting). For location and demographics, use the Segments listed here, the ones the audience form offers, rather than similar-sounding Segments found by a name or prompt search: - location: sub_category "state", "dma", "congressional" or "zip". States go by full name ("Texas", "New York"), DMAs by market name, ZIPs by code. Use `names` for exact matches, several at once, or `search` for part of a name. - demographic_age: one Segment per year of age, 19-99, named by the age. A range is every year in it, e.g. names "25" through "34". - demographic_gender: two Segments, "Male" and "Female". - predefined, direct: `search` by name or description. - lookalike: list them. Part of an audience build: read the openx-audience-build skill first (getSkill).
+List Segments in a category, optionally narrowed by sub_category, a text search, or exact names. The category is the audience-definition dimension: pass the ids you choose as `segment_ids` in a compileAudienceDefinition criterion whose dimension is this category. Location and demographic Segments describe the people in an audience, not where an ad is shown. A location Segment holds users seen in that place over the past 90 days, and a demographic Segment holds users thought to be of that age or gender. Both differ from geographic targeting on a package, which matches the current location of each ad request (from its IP address and similar signals). For "people in Texas", use the Texas location Segment; for "ads shown in Texas", use geographic targeting (buildPackageTargeting). For location and demographics, use the Segments listed here, the ones the audience form offers, rather than similar-sounding Segments found by a name or prompt search: - location: sub_category "state", "dma", "congressional" or "zip". States go by full name ("Texas", "New York"), DMAs by market name, ZIPs by code. Use `names` for exact matches, several at once, or `search` for part of a name. - demographic_age: one Segment per year of age, 19-99, named by the age. A range is every year in it, e.g. names "25" through "34". - demographic_gender: two Segments, "Male" and "Female". - predefined, direct: `search` by name, description, full name or external id. - lookalike: list them. Part of an audience build: read the openx-audience-build skill first (getSkill).
 
 Products: OpenXSelect
 
@@ -1169,10 +1169,10 @@ Products: OpenXSelect
 | `offset` | integer | yes | The offset from the first segment. |
 | `category` | string | yes | The Segment category (the audience-definition dimension). |
 | `sub_category` | string | no | Only Segments with this sub-category (for location: state, dma, congressional or zip). |
-| `search` | string | no | Only Segments whose name or description contains this text. |
+| `search` | string | no | Only Segments whose name, description, full name or external id contains this text. |
 | `names` | list of string | no | Only Segments whose name is exactly one of these. |
 
-Returns: A page of Segments in that category.
+Returns: {"segments": [...]}: a page of Segments in that category, ordered by name.
 
 ### listSegmentsByCountry
 
